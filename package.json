@@ -1,0 +1,37 @@
+{
+  "name": "multirolesauthorization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peterzolo/Multi-role-based-authentication.git"
+  },
+  "keywords": [
+    "Role",
+    "base",
+    "authentication"
+  ],
+  "author": "Peter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Peterzolo/Multi-role-based-authentication/issues"
+  },
+  "homepage": "https://github.com/Peterzolo/Multi-role-based-authentication#readme",
+  "dependencies": {
+    "accesscontrol": "^2.2.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.0",
+    "morgan": "^1.10.0"
+  }
+}
